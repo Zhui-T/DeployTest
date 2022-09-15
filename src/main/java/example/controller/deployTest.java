@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class deployTest {
     @RequestMapping("/test")
     public String test(){
-        System.out.println("deploy test. OK.");
-        return "deploy test. OK.";
+        System.out.println("deploy test. OK.new push.");
+        return "deploy test. OK. new push.";
     }
 }
